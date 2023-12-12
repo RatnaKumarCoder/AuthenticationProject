@@ -1,0 +1,48 @@
+#form-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://th.bing.com/th/id/R.2cd197e236060d0ab53e56eebe448439?rik=it%2boJpZxIQjRew&riu=http%3a%2f%2feskipaper.com%2fimages%2flight-blue-wallpaper-22.jpg&ehk=d5FarhYaKTMmmTZE9PKWVawxV6OkEgV1IYCt6tbxOi0%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form input{
+    Width: 300px;
+    height: 50px;
+    border: none;
+    background-color: #ffffff;
+    padding: 5px;
+    outline: none;
+    border-radius: 8px;
+}
+
+input::-webkit-input-placeholder {
+    padding-left: 20px;
+}
+
+#form-div{
+    width: 600px;
+    height: 500px;
+    border-radius: 30px;
+    background: linear-gradient(45deg, white , #6bbbfa);
+}
+
+form>h1{
+    font-weight: 700;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    color: white;
+    margin-top: 10px;
+}
+
+form button{
+    Width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    color: white;
+    background: linear-gradient(to right, #cbe7fd, #6bbbfa);
+}
