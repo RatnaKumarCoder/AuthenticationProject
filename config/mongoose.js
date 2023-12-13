@@ -2,7 +2,7 @@
 const mongoose=require('mongoose');
 
 //connecting to the mongoDB on localhost on port 27017
-mongoose.connect('mongodb://127.0.0.1:27017/userDB');
+mongoose.connect('mongodb://192.168.1.27:27017/userDB');
 
 //storing the DB connection in db
 const db=mongoose.connection;
