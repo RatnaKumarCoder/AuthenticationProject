@@ -21,4 +21,3 @@
 
 - MongoDB database
 
-- Node.js runtime environment
